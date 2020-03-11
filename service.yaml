@@ -3,6 +3,8 @@ kind: Service
 metadata:
   name: mysvc
   namespace: team-b
+  labels:
+    app: myapp
 spec:
   selector:
     app: myapp
